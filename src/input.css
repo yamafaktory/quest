@@ -6,7 +6,7 @@
 
 @layer base {
   a {
-    @apply text-cyan-500 underline;
+    @apply inline-block m-3 text-cyan-300 underline;
   }
 
   article {
@@ -28,6 +28,7 @@
   nav {
     @apply border-solid border border-cyan-500 p-8 md:col-span-2;
   }
+
   p {
     @apply mb-2;
   }
